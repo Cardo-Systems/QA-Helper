@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.3.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.3.0/QAHelper-Setup-0.3.0.exe",
-  "release_notes": "Initial release with persistent config, auto-update check, and installer packaging.",
+  "latest_version": "0.3.1",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.3.1/QAHelper-Setup-0.3.1.exe",
+  "release_notes": "Patch release 0.3.1",
   "min_version": "0.2.0"
 }
