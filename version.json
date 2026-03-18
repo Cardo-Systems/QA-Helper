@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.3.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.3.2/QAHelper-Setup-0.3.2.exe",
-  "release_notes": "- Rearranged UI for better flow\n- Added connection/disconnection LED\n- Added coredump features",
+  "latest_version": "0.4.1",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.4.1/QAHelper-Setup-0.4.1.exe",
+  "release_notes": "- Added version label, silent auto-update",
   "min_version": "0.2.0"
 }
