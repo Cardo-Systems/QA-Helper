@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.4.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.4.2/QAHelper-Setup-0.4.2.exe",
-  "release_notes": "Hotfix: bundled database file (hydracore_config.sdb) was not found at runtime due to PyInstaller 6+ placing data files in _internal/. Fixed path resolution to use sys._MEIPASS.",
+  "latest_version": "0.4.3",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.4.3/QAHelper-Setup-0.4.3.exe",
+  "release_notes": "Burning and activation are now available",
   "min_version": "0.2.0"
 }
