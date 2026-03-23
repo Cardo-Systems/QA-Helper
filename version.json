@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.4.3",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.4.3/QAHelper-Setup-0.4.3.exe",
-  "release_notes": "Burning and activation are now available",
+  "latest_version": "0.5.0",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v0.5.0/QAHelper-Setup-0.5.0.exe",
+  "release_notes": "Added Bluetooth tab with hardware TX power table reading. Changed PS keys read/write method to use storeset flags. Added device deactivation support. Added firmware version reading from CUSTOMER12. Added PS keys parsing module (ps_keys_manager).",
   "min_version": "0.2.0"
 }
