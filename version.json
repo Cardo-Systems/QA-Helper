@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.1.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.1.0/QAHelper-Setup-1.1.0.exe",
-  "release_notes": "New guided tour feature",
+  "latest_version": "1.2.0",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.2.0/QAHelper-Setup-1.2.0.exe",
+  "release_notes": "Auto-detect BlueSuite installation and prompt to download if missing or outdated",
   "min_version": "0.2.0"
 }
