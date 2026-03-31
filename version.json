@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.3.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.3.0/QAHelper-Setup-1.3.0.exe",
-  "release_notes": "- Changed Read-Burn-Write combo flow to re-read config after burn, preserving new firmware values while restoring BD address and serial\n- Added unsupported firmware popup when an unrecognized device prefix is detected\n- Merged all device operations (including core dump) under the shared BlueSuite worker\n- All operations now block concurrent access through a single busy guard\n- Added clickable shortcuts for log file and config folder paths in the status bar",
+  "latest_version": "1.3.1",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.3.1/QAHelper-Setup-1.3.1.exe",
+  "release_notes": "- Added Audio tab with CUSTOMER3 PS Key read/write via slider\n- Fixed activation/deactivation feeding from stale config after burn",
   "min_version": "0.2.0"
 }
