@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.3.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.3.2/QAHelper-Setup-1.3.2.exe",
-  "release_notes": "- Added Panic Hold/Off option in the Device tab\n- Bluetooth tab: TX Power Table now displayed as cards (all 10 entries visible at once)\n- Fixed subset write bug where edits were saved to the wrong subset slot",
+  "latest_version": "1.3.5",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.3.5/QAHelper-Setup-1.3.5.exe",
+  "release_notes": "- Added PSKey 299 tab for editing device configurations directly\n- Cross-tab sync: activating a device in the On Device tab is now reflected in the PSKey 299 tab\n- Improved Activate / Deactivate button behavior\n- New \"What's New\" popup displayed after each update\n- Various bug fixes and stability improvements",
   "min_version": "0.2.0"
 }
