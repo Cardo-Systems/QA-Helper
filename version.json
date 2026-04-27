@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.3.5",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.3.5/QAHelper-Setup-1.3.5.exe",
-  "release_notes": "- Added PSKey 299 tab for editing device configurations directly\n- Cross-tab sync: activating a device in the On Device tab is now reflected in the PSKey 299 tab\n- Improved Activate / Deactivate button behavior\n- New \"What's New\" popup displayed after each update\n- Various bug fixes and stability improvements",
+  "latest_version": "1.4.0",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.0/QAHelper-Setup-1.4.0.exe",
+  "release_notes": "- Added dark mode / light mode toggle button\n- Removed Write BD button — all write operations are now through Write Device Info\n- Removed Read Version button — version is now read automatically with Read Device Info\n- Version number now displayed in the Device Info section\n- Activate and Deactivate buttons are disabled until device info is read\n- Removed unused byte 4 row from PSkey299 tab\n- Single shared progress bar for burn and coredump operations\n- Improved window resizing support for laptop and large screens\n- Added scrolling to Device tab and PSkey299 tab to prevent clipping on small screens",
   "min_version": "0.2.0"
 }
