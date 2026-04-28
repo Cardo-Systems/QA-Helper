@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.0/QAHelper-Setup-1.4.0.exe",
-  "release_notes": "- Added dark mode / light mode toggle button\n- Removed Write BD button — all write operations are now through Write Device Info\n- Removed Read Version button — version is now read automatically with Read Device Info\n- Version number now displayed in the Device Info section\n- Activate and Deactivate buttons are disabled until device info is read\n- Removed unused byte 4 row from PSkey299 tab\n- Single shared progress bar for burn and coredump operations\n- Improved window resizing support for laptop and large screens\n- Added scrolling to Device tab and PSkey299 tab to prevent clipping on small screens",
+  "latest_version": "1.4.2",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.2/QAHelper-Setup-1.4.2.exe",
+  "release_notes": "- Fixed TX Power Table corruption — Exp field was truncated on display, causing all Exp values to be written back as 0x00\n- BlueSuite missing/outdated prompt now appears immediately on startup instead of after 20 seconds\n- Fixed BD Address not being written when clicking \"Write Device Info\" — edits were silently ignored\n- BD Address editable prefix is now 3 separate byte fields instead of a single text box\n- Added post-reset cooldown — device operations wait for the chip to settle after any reset\n- XUV file path is now a dropdown that remembers the last 3 firmware images you used\n- Version label in the footer is now clickable to view What's New",
   "min_version": "0.2.0"
 }
