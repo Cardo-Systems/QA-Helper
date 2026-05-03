@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.2/QAHelper-Setup-1.4.2.exe",
-  "release_notes": "- Fixed TX Power Table corruption — Exp field was truncated on display, causing all Exp values to be written back as 0x00\n- BlueSuite missing/outdated prompt now appears immediately on startup instead of after 20 seconds\n- Fixed BD Address not being written when clicking \"Write Device Info\" — edits were silently ignored\n- BD Address editable prefix is now 3 separate byte fields instead of a single text box\n- Added post-reset cooldown — device operations wait for the chip to settle after any reset\n- XUV file path is now a dropdown that remembers the last 3 firmware images you used\n- Version label in the footer is now clickable to view What's New",
+  "latest_version": "1.4.3",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.3/QAHelper-Setup-1.4.3.exe",
+  "release_notes": "- Added Packtalk 3 Pro, Packtalk 3 Plus, and Packtalk 3 device prefixes\n- Device connection LED now shows orange \"Reconnecting...\" state after reset before turning green\n- Actions are blocked until the device fully reconnects after a reset (no more state mismatch)\n- Fixed theme rendering issues on certain Windows machines",
   "min_version": "0.2.0"
 }
