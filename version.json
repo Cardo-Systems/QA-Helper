@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.3",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.3/QAHelper-Setup-1.4.3.exe",
-  "release_notes": "- Added Packtalk 3 Pro, Packtalk 3 Plus, and Packtalk 3 device prefixes\n- Device connection LED now shows orange \"Reconnecting...\" state after reset before turning green\n- Actions are blocked until the device fully reconnects after a reset (no more state mismatch)\n- Fixed theme rendering issues on certain Windows machines",
+  "latest_version": "1.4.5",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.5/QAHelper-Setup-1.4.5.exe",
+  "release_notes": "- Added Mic Tuning/Config section to Audio tab (mic gain, VAD, NR, ASR controls)\n- Read Info now reads both volume and mic tuning settings from the device\n- Set Info now writes both volume and mic tuning settings in a single operation\n- Skips writing to device when no settings have changed",
   "min_version": "0.2.0"
 }
