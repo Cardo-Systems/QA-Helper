@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.5",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.5/QAHelper-Setup-1.4.5.exe",
-  "release_notes": "- Added Mic Tuning/Config section to Audio tab (mic gain, VAD, NR, ASR controls)\n- Read Info now reads both volume and mic tuning settings from the device\n- Set Info now writes both volume and mic tuning settings in a single operation\n- Skips writing to device when no settings have changed",
+  "latest_version": "1.4.6",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.6/QAHelper-Setup-1.4.6.exe",
+  "release_notes": "- App window now expands correctly when resized — content was previously capped at a fixed width\n- Panic Mode (Off/Hold) is now restored automatically when using Read → Burn → Write combo\n- Panic Mode combo now updates to reflect the device's actual setting after reading device info\n- Added \"Enter Raw Table\" button in the Bluetooth tab — paste raw config to populate the TX Power Table without connecting to a device\n- Fixed layout expanding outside the window when a long firmware file path was loaded in the Burn section",
   "min_version": "0.2.0"
 }
