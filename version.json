@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.6",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.6/QAHelper-Setup-1.4.6.exe",
-  "release_notes": "- App window now expands correctly when resized — content was previously capped at a fixed width\n- Panic Mode (Off/Hold) is now restored automatically when using Read → Burn → Write combo\n- Panic Mode combo now updates to reflect the device's actual setting after reading device info\n- Added \"Enter Raw Table\" button in the Bluetooth tab — paste raw config to populate the TX Power Table without connecting to a device\n- Fixed layout expanding outside the window when a long firmware file path was loaded in the Burn section",
+  "latest_version": "1.4.7",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.4.7/QAHelper-Setup-1.4.7.exe",
+  "release_notes": "- Added \"Upload File\" button in Bluetooth tab to load power table from .htf or .txt files\n- Core Dump output folder now remembers recent directories (history dropdown)",
   "min_version": "0.2.0"
 }
