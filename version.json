@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.0/QAHelper-Setup-1.5.0.exe",
-  "release_notes": "- Added \"Upload File\" button in Bluetooth tab to load power table from .htf or .txt files\n- Core Dump output folder now remembers recent directories (history dropdown)\n- Added new \"Download Power Table\" button in the Bluetooth tab\n- Fixed a logging issue that caused log entries to be missing or incorrectly formatted\n- Added new DMC tab for reading and writing DMC group configuration (CUSTOMER5, CUSTOMER6, CUSTOMER7 PS keys)",
+  "latest_version": "1.5.1",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.1/QAHelper-Setup-1.5.1.exe",
+  "release_notes": "- Added \"Erase before burn\" checkbox \u2014 when checked, the device SQIF is erased before burning firmware",
   "min_version": "0.2.0"
 }
