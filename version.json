@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.1",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.1/QAHelper-Setup-1.5.1.exe",
-  "release_notes": "- Added \"Erase before burn\" checkbox \u2014 when checked, the device SQIF is erased before burning firmware",
+  "latest_version": "1.5.2",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.2/QAHelper-Setup-1.5.2.exe",
+  "release_notes": "- Device Serial prefix bytes now align correctly with other fields in Device Info\n- Device Serial edit box shows placeholder format \"00 00 00 00 00 00 00 00\" after reading device info",
   "min_version": "0.2.0"
 }
