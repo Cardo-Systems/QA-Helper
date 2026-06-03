@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.2/QAHelper-Setup-1.5.2.exe",
-  "release_notes": "- Device Serial prefix bytes now align correctly with other fields in Device Info\n- Device Serial edit box shows placeholder format \"00 00 00 00 00 00 00 00\" after reading device info",
+  "latest_version": "1.5.3",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.3/QAHelper-Setup-1.5.3.exe",
+  "release_notes": "- Fixed a bug where changing the device prefix was not written to the device",
   "min_version": "0.2.0"
 }
