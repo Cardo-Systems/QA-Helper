@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.4",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.4/QAHelper-Setup-1.5.4.exe",
-  "release_notes": "- Fixed firmware burn failing with \"erase error\" when NvsCmd erase times out",
+  "latest_version": "1.5.5",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.5/QAHelper-Setup-1.5.5.exe",
+  "release_notes": "- Removed \"Erase Before Burn\" checkbox (feature disabled)\n- Renamed \"Read -> Burn -> Write Combo\" to \"Preserve BD Address & Prefix on Burn\" for clarity",
   "min_version": "0.2.0"
 }
