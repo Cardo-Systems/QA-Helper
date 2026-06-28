@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.5",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.5/QAHelper-Setup-1.5.5.exe",
-  "release_notes": "- Removed \"Erase Before Burn\" checkbox (feature disabled)\n- Renamed \"Read -> Burn -> Write Combo\" to \"Preserve BD Address & Prefix on Burn\" for clarity",
+  "latest_version": "1.5.6",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.6/QAHelper-Setup-1.5.6.exe",
+  "release_notes": "- Added Cloud firmware source — switch between Local file and Cloud (Z: drive) in the Firmware Image section\n- Cloud mode shows the 5 latest release versions, pre-labeled while downloading (\"Fetching v0.4.39.R1…\"), updating to the real version name once ready\n- Firmware images are cached locally so Cloud burns work even when Z: drive is temporarily unavailable\n- Stale cached versions are automatically removed when newer releases are detected on Z: drive\n- Burn button stays disabled until at least one version is fully downloaded and ready\n- Clear status messages when Z: drive is unreachable — distinguishes between no access, cached fallback, and mid-download disconnection",
   "min_version": "0.2.0"
 }
