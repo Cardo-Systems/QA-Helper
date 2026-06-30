@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.6",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.6/QAHelper-Setup-1.5.6.exe",
-  "release_notes": "- Added Cloud firmware source — switch between Local file and Cloud (Z: drive) in the Firmware Image section\n- Cloud mode shows the 5 latest release versions, pre-labeled while downloading (\"Fetching v0.4.39.R1…\"), updating to the real version name once ready\n- Firmware images are cached locally so Cloud burns work even when Z: drive is temporarily unavailable\n- Stale cached versions are automatically removed when newer releases are detected on Z: drive\n- Burn button stays disabled until at least one version is fully downloaded and ready\n- Clear status messages when Z: drive is unreachable — distinguishes between no access, cached fallback, and mid-download disconnection",
+  "latest_version": "1.5.7",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.7/QAHelper-Setup-1.5.7.exe",
+  "release_notes": "- Device communication now uses the actual USB Debug port identifier instead of a fixed default, reducing \"Device not connected\" errors after reconnects\n- Added USB event suppression during write operations on Audio, DMC, and PS Key 299 tabs to prevent false disconnect notifications\n- Added CUSTOMER295 byte vector editor in the PS Key 299 tab (8 editable hex bytes with auto-advance)\n- Read and Write operations in the PS Key 299 tab now handle both CUSTOMER299 and CUSTOMER295 together\n- Read and Write buttons in the PS Key 299 tab moved to the right side for consistency\n- Firmware versions with only one variant available (headset or kido) now show correctly instead of staying on \"Fetching\" forever\n- Firmware versions where no variant exists on Z: drive now show \"not available\" instead of \"Fetching\" indefinitely",
   "min_version": "0.2.0"
 }
