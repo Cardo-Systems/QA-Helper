@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.7",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.7/QAHelper-Setup-1.5.7.exe",
-  "release_notes": "- Device communication now uses the actual USB Debug port identifier instead of a fixed default, reducing \"Device not connected\" errors after reconnects\n- Added USB event suppression during write operations on Audio, DMC, and PS Key 299 tabs to prevent false disconnect notifications\n- Added CUSTOMER295 byte vector editor in the PS Key 299 tab (8 editable hex bytes with auto-advance)\n- Read and Write operations in the PS Key 299 tab now handle both CUSTOMER299 and CUSTOMER295 together\n- Read and Write buttons in the PS Key 299 tab moved to the right side for consistency\n- Firmware versions with only one variant available (headset or kido) now show correctly instead of staying on \"Fetching\" forever\n- Firmware versions where no variant exists on Z: drive now show \"not available\" instead of \"Fetching\" indefinitely",
+  "latest_version": "1.5.8",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.8/QAHelper-Setup-1.5.8.exe",
+  "release_notes": "- Restored Erase Before Burn checkbox in Device tab (applies to both plain Burn and Preserve BD Address mode); erase timeout increased to 3 minutes\n",
   "min_version": "0.2.0"
 }
