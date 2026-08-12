@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.8",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.8/QAHelper-Setup-1.5.8.exe",
-  "release_notes": "- Restored Erase Before Burn checkbox in Device tab (applies to both plain Burn and Preserve BD Address mode); erase timeout increased to 3 minutes\n",
+  "latest_version": "1.5.9",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.9/QAHelper-Setup-1.5.9.exe",
+  "release_notes": "- Light mode is readable when Windows is in dark mode\n- Installer now fetches the latest version before installing (uses the bundled copy if offline)\n",
   "min_version": "0.2.0"
 }
