@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.9",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.5.9/QAHelper-Setup-1.5.9.exe",
-  "release_notes": "- Light mode is readable when Windows is in dark mode\n- Installer now fetches the latest version before installing (uses the bundled copy if offline)\n",
+  "latest_version": "1.6.0",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.0/QAHelper-Setup-1.6.0.exe",
+  "release_notes": "- Major internal update: device discovery now uses the shared cardo_device_lib engine. Please report any issues you notice \u2014 connection LED, device detection, or anything that feels off.",
   "min_version": "0.2.0"
 }
