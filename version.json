@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.6.0",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.0/QAHelper-Setup-1.6.0.exe",
-  "release_notes": "- Major internal update: device discovery now uses the shared cardo_device_lib engine. Please report any issues you notice \u2014 connection LED, device detection, or anything that feels off.",
+  "latest_version": "1.6.1",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.1/QAHelper-Setup-1.6.1.exe",
+  "release_notes": "- Fixed device not recognized when TransportUnlock reports \"failed.\" on enumeration\n- Removed noisy \"Source not found\" console messages on startup when a firmware variant is missing on Z: drive\n- Fixed leftover \"Fetching version\" placeholders in Cloud firmware combo when fewer than 5 versions exist\n- Fixed \"Connect to Z: drive\" message incorrectly replacing scan results when all versions failed to download\n- Z: drive connection loss now stops remaining download attempts instead of continuing to fail",
   "min_version": "0.2.0"
 }
