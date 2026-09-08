@@ -1,6 +1,6 @@
-{
-  "latest_version": "1.6.2",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.2/QAHelper-Setup-1.6.2.exe",
-  "release_notes": "- QA Helper detects BlueSuite after you install it, without restarting the app\n- Automatically detects when the QCC chip is USB-debug locked and unlocks it without user intervention\n- Installer and app are now code-signed with our signing key",
-  "min_version": "0.2.0"
+﻿{
+    "latest_version":  "1.6.3",
+    "installer_url":  "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.3/QAHelper-Setup-1.6.3.exe",
+    "release_notes":  "- Multi-device support: port selector to switch between connected devices\r\n- Switching devices instantly shows the data last read from that device\r\n- If the active device is unplugged, QA Helper switches to another connected device and shows its data\r\n- Device selector is locked while a read or write is in progress\r\n- Read/Write Device Info and Bluetooth config now use per-device cardo_device_lib sessions\r\n- Clearer BlueSuite/device-session error messages and logging\r\n- More visible blue theme accents",
+    "min_version":  "0.2.0"
 }
