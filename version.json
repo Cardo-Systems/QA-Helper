@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.6.3",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.3/QAHelper-Setup-1.6.3.exe",
-  "release_notes": "- Multi-device support: port selector to switch between connected devices\n- Switching devices instantly shows the data last read from that device\n- If the active device is unplugged, QA Helper switches to another connected device and shows its data\n- Device selector is locked while a read or write is in progress\n- Read/Write Device Info and Bluetooth config now use per-device cardo_device_lib sessions\n- Clearer BlueSuite/device-session error messages and logging\n- More visible blue theme accents",
+  "latest_version": "1.6.4",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.4/QAHelper-Setup-1.6.4.exe",
+  "release_notes": "- Renamed the PSkey299 tab to PS keys\n- Added CUSTOMER297 RF-test editor (6-byte) alongside CUSTOMER295",
   "min_version": "0.2.0"
 }
