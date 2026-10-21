@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.6.7",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.7/QAHelper-Setup-1.6.7.exe",
-  "release_notes": "- The installer now downloads and installs BlueSuite 4.0.9 if it is missing and registers the USB debug unlock key, with a single Windows prompt (click Yes) - no separate BlueSuite install or restart as Administrator on a fresh machine\n- New \"Device is locked\" dialog: a short numbered checklist (disconnect other USB devices, open QA Helper as Administrator, contact)\n- If the unlock key is registered but the device is still locked, a dialog asks you to unplug and replug the device and closes by itself once it is unlocked\n- Unlock command output is now written to the log file for easier diagnosis\n- The installer no longer shows \"Stop download\" while BlueSuite is installing",
+  "latest_version": "1.6.8",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.6.8/QAHelper-Setup-1.6.8.exe",
+  "release_notes": "- Added FM tab: edit the 6 preset stations, switch between Worldwide and Japan FM, and turn RDS on or off",
   "min_version": "0.2.0"
 }
