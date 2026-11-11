@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.7.1",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.1/QAHelper-Setup-1.7.1.exe",
-  "release_notes": "Fix: \"Preserve BD Address & Prefix on Burn\" now also preserves USBSerialNumberString. Previously the device came back from a burn with the default USB serial string.",
+  "latest_version": "1.7.2",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.2/QAHelper-Setup-1.7.2.exe",
+  "release_notes": "- Device tab: Activate and Deactivate now set and clear the real activation (the same one the Cardo app sets), not only the \"skip activation check\" flag\n- Device tab: Deactivate also clears the \"skip activation check\" flag if it is set, so the unit really ends up not activated\n- Device tab: fixed both Activate and Deactivate staying disabled on units that never had CUSTOMER299 (most units)\n- Device tab: the activation state is shown correctly for units activated through the app\n- PS keys tab: Customer295 and Customer297 are shown as tables with named settings, like Customer299\n- PS keys tab: Customer297 now shows and writes all its field-test settings; writing it no longer cuts the key short\n- PS keys tab: Write sends only the values you changed and lists them before writing\n- Reading the PS keys on any tab now also refreshes the Audio, FM, PS keys and Device tabs\n- PS keys tab and DMC tab: an \"i\" mark shows groups that are not read from the shared PS key definitions yet",
   "min_version": "0.2.0"
 }
