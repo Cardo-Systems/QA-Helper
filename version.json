@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.7.3",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.3/QAHelper-Setup-1.7.3.exe",
-  "release_notes": "- Help Me now explains the bottom bar: where the log file, the config folder (the device config files) and the version are\n- A Preserve burn now backs up the BD address, serial, USB serial and panic action first, and keeps the backup file if the burn fails\n- Failed burn dialog names the error and has an Open Backup Folder button\n- Burn timeout raised from 120 s to 180 s\n- PS keys tab: CUSTOMER299 rows now match what the firmware reads (the old NXP HiFi boxes are gone; pairing role, legacy IC guard and idle timeout are lists and minutes)\n- Writing CUSTOMER299 keeps the device values of bytes 12-15, and creates the key on a device that has none\n- Audio tab: new HFP Send Gain (dB) control for the phone-call send chain, with a Use device default option",
-  "min_version": "0.2.0"
+  "latest_version": "1.7.4",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.4/QAHelper-Setup-1.7.4.exe",
+  "release_notes": "- Stability improvements and preparation for upcoming features",
+  "min_version": "1.7.4"
 }
