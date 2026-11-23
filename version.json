@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.7.4",
-  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.4/QAHelper-Setup-1.7.4.exe",
+  "latest_version": "1.7.5",
+  "installer_url": "https://github.com/Cardo-Systems/QA-Helper/releases/download/v1.7.5/QAHelper-Setup-1.7.5.exe",
   "release_notes": "- Stability improvements and preparation for upcoming features",
-  "min_version": "1.7.4"
+  "min_version": "1.7.5"
 }
